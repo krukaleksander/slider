@@ -1,11 +1,9 @@
 document.addEventListener('DOMContentLoaded', () => {
-    console.log('działam');
     const imagesContainerEl = document.querySelector('.slider__images-container');
     const imgFirst = document.querySelector('.slider__image-container--first img');
     const imgSecond = document.querySelector('.slider__image-container--second img');
     let dragging = false;
     let imagesContainerLeftOffset;
-    const imageFirstContainer = document.querySelector('.slider__image-container slider__image-container--first');
     const imageSecondContainer = document.querySelector('.slider__image-container--second');
     const handleEl = document.querySelector('.slider__handle');
     const dividerEl = document.querySelector('.slider__divider');
